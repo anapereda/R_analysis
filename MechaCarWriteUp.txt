@@ -1,0 +1,18 @@
+# Car RUs data analysis write up
+
+We perfomred a multivariable regression analysis on the Mercha Cars data set to explore the relationship between miles per galon (mpg),
+and vehicle length, weight, ground clearance and spoiler angle. Results suggests that the only variable that have a non-random amount 
+of variance in mpg are vehicle length and ground clearance (p-value < signicance level). The slope of the line for this two variables
+suggest positive correlation. The slope of the linear model is not considered to be zero because variance of residuals is positive. Finally 
+this model is a good predictor as the R squared values is 0.7 (at least 70 percent of predictions are accurate); I would like to explore 
+performance by only including variables that do not introduce variance in prediction due to randomness.
+
+After exploring the super coil dataser, we see that the mean is 129.95, media in 149.97, variance is 76.23 and standard deviation is 8.73.
+This showa design specifications for MerchaCar specificatios were not met because the median is above 100 and stantard deviations
+does not shoe to have the data within the values desired.
+
+The best way to see how MerchaCars outcompetes competence is by making looking at the frequency of cars bought and doing an chi-squared
+test; wewoudl have to record the number of cars sold by our company and other companies. Statistical difference will signify that one company 
+is selling more than the other dependeing on the difference in the frequency of cars bought before it gets squared. The null hyopthesis is 
+'there is no difference in buying frequency between Merchacars and X company' and the alternative hypothesis is 'there is difference in 
+buying frequencybetween MerchaCar and X company'.
